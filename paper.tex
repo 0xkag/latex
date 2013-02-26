@@ -1,0 +1,58 @@
+% vim: set tw=72:
+
+\documentclass[letterpaper,10pt,twocolumn]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cite}
+\usepackage{enumerate}
+\usepackage{fullpage}
+\usepackage{graphicx} % needed to force letterpaper for pdflatex
+\usepackage{listings}
+\usepackage{times}
+\usepackage[hyphens]{url}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+\usepackage{ltxgrid}
+
+\title{Insert Title Here\\
+Insert Subtitle Here\\
+}
+\author{
+  Name Here\\
+  someone@example.com\\
+}
+\date{9999-01-01}
+
+\renewcommand{\abstractname}{\large\selectfont Abstract\\}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\large\selectfont
+Put abstract here
+\\
+\end{abstract}
+
+\twocolumngrid
+
+\section{Section 1}
+
+TODO \cite{rfc2324}
+
+\begin{enumerate}[1)]
+
+\item Put an item here
+
+\end{enumerate}
+
+\pagebreak
+
+\onecolumngrid
+
+\bibliographystyle{acm}
+\bibliography{references}
+
+\end{document}
+
